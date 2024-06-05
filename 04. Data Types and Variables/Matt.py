@@ -8,10 +8,9 @@ def ts_to_date(ts: int):
     new_time = ts % 1440
     return (new_date, new_time)
 
+# ts = date_to_ts(240605, 1234)
+# print(ts)
 
-ts = date_to_ts(240605, 1234)
-print(ts)
-
-dt, tm = ts_to_date(ts)
-print (dt, tm)
+# dt, tm = ts_to_date(ts)
+# print (dt, tm)
 
