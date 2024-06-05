@@ -1,0 +1,13 @@
+import sys
+
+max_number = -sys.maxsize #vratiće najveći mogući int broj 
+
+
+for i in range(3):
+    number = int(input())
+    
+    if number > max_number:
+        max_number = number
+
+print(max_number)
+
